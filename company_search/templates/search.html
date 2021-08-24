@@ -1,0 +1,191 @@
+{% extends "base1.html" %}
+
+{% block info %}
+    <div id="loading" >
+    <div id="loading-center">
+    <div id="loading-center-absolute">
+    <div class="object" id="object_four"></div>
+    <div class="object" id="object_three"></div>
+    <div class="object" id="object_two"></div>
+    <div class="object" id="object_one"></div>
+    </div>
+    </div>
+    </div>
+    <!--上面为等待图标-->
+    <div class="span8">
+        <div class="input-group" style="padding-top: 15px">
+            <input type="text" class="form-control" style="height: 25px;width: 400px;border-bottom-left-radius: 5px;border-top-left-radius: 5px;float: left;margin-right: 5px" placeholder="公司名称">{% csrf_token %}
+            <button class="el-btn btn-danger" type="button" id="btn" style="height: 35px;border-radius: 5px;"><i class="bi bi-search" style="font-size: 1rem; color: white;padding: 5px"></i>开始搜索</button>
+            <button class="btn btn-info btn-lg" data-toggle="modal" id="mbtn" data-target="#myModal" style="height: 35px">批量搜索</button>
+        </div><!-- /input-group -->
+    </div>
+
+    <div class="span12">
+        <table class="table table-striped" style="background-color: white;height: 100%">
+            <thead>
+            <tr>
+                {#        标题#}
+            </tr>
+            </thead>
+            <tbody>
+            {#          占位#}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display:none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        批量搜索，每行一CAS号
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <textarea class="form-control_1" id="deblock_udid" name="deblock_udid" rows="16" style="min-width: 90%;width: 600px; height: 320px; resize: vertical"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        关闭
+                    </button>
+                    <button type="button" class="btn btn-danger" id="m_search">
+                        搜索
+                    </button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+{% endblock %}
+
+{% block script %}
+
+    $(document).ready(function(){
+        $("#btn").click(function () {
+            $("thead").empty();
+            $("tbody").empty();
+            var companyname = $(".form-control").val();
+            console.log(companyname);
+            if(companyname!=""&&companyname!=null){
+                $.ajax({
+                    url:"/app/api/searchapi/",
+                    type:'POST',
+                    data:{"name":companyname},
+                    beforeSend: function () {
+                                // 禁用按钮防止重复提交
+                                $("h4").text("正在查询...")
+                                $("#btn").attr('disabled','disabled');
+                        },
+                    success: function (data) {
+                            console.log(data);
+                            content = [];
+                            head="<tr>\n" +
+                                 "<th>编号</th>\n" +
+                                "<th>公司名称</th>\n" +
+                                "<th>合作平台数量</th>\n" +
+                                "<th>平台类型</th>\n" +
+                                "<th>产品数量Max</th>\n" +
+                                "<th>Chem960Vip</th>\n" +
+                                "<th>操作</th>\n" +
+                                "</tr>";
+
+                            for(var i=0;i<data.length;i++){
+                                if(data[i].message=="success"){
+                                    if(data[i].vip=="是"){
+                                        html ="<tr>"+"<td>"+(i+1)+"</td>"+"<td class='name'>"+data[i].company_name+"</td>"+"<td class='num'>"+data[i].num+"</td>"+"<td class='source'>"+data[i].sourcelist+"</td>"+"<td class='num'>"+data[i].product_num_max+"</td>"+"<td class='vip'>"+'<button type="button" disabled="disabled" class="el-btn btn-success" style="color: white;border: none;border-radius:3px">是</button>'+"</td>"+"<td class='link'>"+'<button type="button" class="btn-xs btn-warning"><a href="/app/detail.html?name='+data[i].company_name+'&source='+data[i].sourcelist+'">详情</a></button>'+"</td>"+"</tr>";
+                                    }else{
+                                        html ="<tr>"+"<td>"+(i+1)+"</td>"+"<td class='name'>"+data[i].company_name+"</td>"+"<td class='num'>"+data[i].num+"</td>"+"<td class='source'>"+data[i].sourcelist+"</td>"+"<td class='num'>"+data[i].product_num_max+"</td>"+"<td class='vip'>"+'<button type="button" disabled="disabled" class="el-btn btn-default" style="color: white;border: none;border-radius:3px;background-color: #ddd">否</button>'+"</td>"+"<td class='link'>"+'<button type="button" class="btn-xs btn-warning"><a href="/app/detail.html?name='+data[i].company_name+'&source='+data[i].sourcelist+'">详情</a></button>'+"</td>"+"</tr>";
+                                    }
+                                    content.push(html)
+                                }else {
+                                    alert(data[0].message)
+                                }
+                            }
+                            if(content.length>0){
+                                console.log(content)
+                                $("thead").html(head);
+                                $("tbody").html(content.join("\n"));
+                                console.log(content.join("\n"))
+                            } else {
+                                console.log(content.length);
+                                alert("没有查询到数据")
+                            }
+                        },
+                    complete: function () {
+                                $("#btn").removeAttr("disabled");
+                                $("h4").text("Success!")
+                                alert("查询成功！")
+                        },
+                })
+            }else {
+                alert("输入为空！")
+            }
+        });
+
+    });
+
+    $("#m_search").click(function () {
+        datas = $('.form-control_1') .val()
+        console.log(datas)
+        if(datas!=""&&datas!=null){
+            $.ajax({
+                type:"POST",
+                url:'/app/api/m_searchAip/',
+                data:{"data":datas},
+                beforeSend: function () {
+                    // 禁用按钮防止重复提交
+                    $("h4").text("正在查询...")
+                    $("#m_search").attr('disabled','disabled');
+                },
+                success: function (data) {
+                    console.log(data)
+                    content = [];
+                    head="<tr>\n" +
+                         "<th>编号</th>\n" +
+                        "<th>公司名称</th>\n" +
+                        "<th>合作平台数量</th>\n" +
+                        "<th>平台类型</th>\n" +
+                        "<th>产品数量Max</th>\n" +
+                        "<th>Chem960Vip</th>\n" +
+                        "<th>操作</th>\n" +
+                        "</tr>";
+
+                    for(var i=0;i<data.length;i++){
+                        if(data[i].message=="success"){
+                            if(data[i].vip=="是"){
+                                html ="<tr>"+"<td>"+(i+1)+"</td>"+"<td class='name'>"+data[i].company_name+"</td>"+"<td class='num'>"+data[i].num+"</td>"+"<td class='source'>"+data[i].sourcelist+"</td>"+"<td class='num'>"+data[i].product_num_max+"</td>"+"<td class='vip'>"+'<button type="button" disabled="disabled" class="el-btn btn-success" style="color: white;border: none;border-radius:3px">是</button>'+"</td>"+"<td class='link'>"+'<button type="button" class="btn-xs btn-warning"><a href="/app/detail.html?name='+data[i].company_name+'&source='+data[i].sourcelist+'">详情</a></button>'+"</td>"+"</tr>";
+                            }else{
+                                html ="<tr>"+"<td>"+(i+1)+"</td>"+"<td class='name'>"+data[i].company_name+"</td>"+"<td class='num'>"+data[i].num+"</td>"+"<td class='source'>"+data[i].sourcelist+"</td>"+"<td class='num'>"+data[i].product_num_max+"</td>"+"<td class='vip'>"+'<button type="button" disabled="disabled" class="el-btn btn-default" style="color: white;border: none;border-radius:3px;background-color: #ddd">否</button>'+"</td>"+"<td class='link'>"+'<button type="button" class="btn-xs btn-warning"><a href="/app/detail.html?name='+data[i].company_name+'&source='+data[i].sourcelist+'">详情</a></button>'+"</td>"+"</tr>";
+                            }
+
+                            content.push(html)
+                        }else {
+                            alert(data[0].message)
+                        }
+                    }
+                    if(content.length>0){
+                        console.log(content)
+                        $("thead").html(head);
+                        $("tbody").html(content.join("\n"));
+                        console.log(content.join("\n"))
+                    } else {
+                        console.log(content.length);
+                        alert("没有查询到数据")
+                    }
+                },
+                complete: function () {
+                        $("#m_search").removeAttr("disabled");
+                        $("h4").text("Success!")
+                        alert("查询成功！")
+                },
+            })
+
+        }else{
+            alert(" 请输入内容")
+        }
+    })
+
+{% endblock %}
+

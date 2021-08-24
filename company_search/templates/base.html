@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+<head>
+
+    {% block head %}
+    <title>产品信息检索</title>
+    {% endblock %}
+	<meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <style>
+        *{
+            font-family: "Microsoft YaHei",Arial;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        @media (min-width: 1200px) {
+            .container{
+                max-width: 100%;
+            }
+        }
+       li {
+            list-style-type:none;
+
+        }
+        .col-md-2 {
+            position: relative;
+            min-height: 1px;
+            padding-right: 0px;
+            padding-left: 0px;
+
+        }
+
+        ul div:hover{
+            background-color:#102029;
+        }
+        span a{
+            color: white;
+            text-decoration: none;
+
+        }
+        span a:hover {
+            color: white;
+            text-decoration: none;
+        }
+        th{
+        text-align: center;
+        }
+        td{
+           text-align: center;
+        }
+
+        {% block  style %}
+        {% endblock %}
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class="col-md-2" style="height: 100%;width: 260px">
+        <header class="el-header navbar" style="height: 58px; font-size: 12px; padding: 10px;border-right: solid #2291ce 1px;margin-bottom: 0px">
+            <span><img src=""></span>
+        </header>
+        <div class="aside" style="background-color: #2f3438;height: 1130px;width: 260px;color: white">
+           <div style="height: 56px;width: 100%;padding-right: 20px">
+               <li style="padding-left: 20px;padding-top: 15px;">
+                   <i class="bi bi-house-fill" style="font-size: 2rem; color: white;padding-left: 40px;"></i>
+                   <span style="width: 24px;height: 16px;padding-left: 10px" ><a href="{% url 'index' %}">首页</a></span>
+               </li>
+           </div>
+           <div style="height: 56px;width: 100%;background-color: #000000;padding-right: 20px;margin-left: 0px;color: white">
+               <li style="padding-left: 20px;padding-top: 15px;">
+                   <i class="bi bi-search" style="font-size: 2rem; color: white;padding-left: 40px;"></i>
+                   <span style="width: 24px;height: 16px;padding-left: 10px">数据检索</span>
+                   <span class="pull-right glyphicon glyphicon-chevron-down"onclick="chevron_toggle()" id="collapseParent"></span>
+               </li>
+           </div>
+            <ul id="docCollapse" class="nav nav-list collapse">
+               <div style="height: 56px;width: 100%;padding-right: 20px">
+                    <li style="padding-left: 20px;padding-top: 15px;">
+                    <i class="bi bi-filter" style="font-size: 2rem; color: white;padding-left: 40px;"></i>
+                        <span style="width: 24px;height: 16px;padding-left: 10px"><a href="{% url 'search'%}">公司检索</a></span>
+                    </li>
+                    </div>
+               <!--<div style="height: 56px;width: 100%;padding-right: 20px">-->
+                    <!--<li style="padding-left: 20px;padding-top: 15px;">-->
+                    <!--<i class="bi bi-filter" style="font-size: 2rem; color: white;padding-left: 40px;"></i>-->
+                   <!--<span style="width: 24px;height: 16px;padding-left: 10px">Alias搜索</span>-->
+                    <!--</li>-->
+                    <!--</div>-->
+           </ul>
+            <div style="height: 56px;width: 100%;background-color: #000000;padding-right: 20px;color: white">
+               <li style="padding-left: 20px;padding-top: 15px;">
+                   <i class="bi bi-server" style="font-size: 2rem; color: white;padding-left: 40px;"></i>
+                   <span style="width: 24px;height: 16px;padding-left: 10px">数据展示</span>
+                   <span class="pull-right glyphicon glyphicon-chevron-down"onclick="chevron_toggle1()" id="collapseParent1"></span>
+               </li>
+           </div>
+            <ul id="docCollapse1" class="nav nav-list collapse">
+{#               <div style="height: 56px;width: 100%;padding-right: 20px;color: white">#}
+{#                    <li style="padding-left: 20px;padding-top: 15px;">#}
+{#                    <i class="bi bi-filter" style="font-size: 2rem; color: white;padding-left: 40px;"></i>#}
+{#                        <span style="width: 24px;height: 16px;padding-left: 10px"><a href="#">产品信息</a></span>#}
+{#                    </li>#}
+{#                    </div>#}
+               <div style="height: 56px;width: 100%;padding-right: 20px;color: white">
+                    <li style="padding-left: 20px;padding-top: 15px;">
+                    <i class="bi bi-filter" style="font-size: 2rem; color: white;padding-left: 40px;"></i>
+                   <span style="width: 24px;height: 16px;padding-left: 10px"><a href="{% url 'getcompanyname'%}">公司信息</a></span>
+                    </li>
+                    </div>
+           </ul>
+{#           <div style="height: 56px;width: 100%;background-color: #000000;padding-right: 20px;color: white">#}
+{#               <li style="padding-left: 20px;padding-top: 15px;">#}
+{#                   <i class="bi bi-printer-fill" style="font-size: 2rem; color: white;padding-left: 40px;"></i>#}
+{#                   <span style="width: 24px;height: 16px;padding-left: 10px">数据处理</span>#}
+{#                   <span class="pull-right glyphicon glyphicon-chevron-down"onclick="chevron_toggle()" id="collapseParent3"></span>#}
+{#               </li>#}
+{#           </div>#}
+{#           <div style="height: 56px;width: 100%;background-color: #000000;padding-right: 20px;color: white">#}
+{#               <li style="padding-left: 20px;padding-top: 15px;">#}
+{#                   <i class="bi bi-pie-chart-fill" style="font-size: 2rem; color: white;padding-left: 40px;"></i>#}
+{#                   <span style="width: 24px;height: 16px;padding-left: 10px">数据分析</span>#}
+{#                   <span class="pull-right glyphicon glyphicon-chevron-down"onclick="chevron_toggle2()" id="collapseParent2"></span>#}
+{#               </li>#}
+{#           </div>#}
+{#           <ul id="docCollapse2" class="nav nav-list collapse">#}
+{#               <div style="height: 56px;width: 100%;padding-right: 20px">#}
+{#                    <li style="padding-left: 20px;padding-top: 15px;">#}
+{#                    <i class="bi bi-filter" style="font-size: 2rem; color: white;padding-left: 40px;"></i>#}
+{#                        <span style="width: 24px;height: 16px;padding-left: 10px"><a href="#" target="_blank">数据采集量</a></span>#}
+{#                    </li>#}
+{#                    </div>#}
+{#               <div style="height: 56px;width: 100%;padding-right: 20px">#}
+{#                    <li style="padding-left: 20px;padding-top: 15px;">#}
+{#                    <i class="bi bi-filter" style="font-size: 2rem; color: white;padding-left: 40px;"></i>#}
+{#                   <span style="width: 24px;height: 16px;padding-left: 10px">数据</span>#}
+{#                    </li>#}
+{#                    </div>#}
+{#           </ul>#}
+       </div>
+    </div>
+    <header style="height: 58px;background-color: #02c0ce;padding-top: 15px;padding-bottom:15px;">
+        <i class="bi bi-justify" style="font-size: 2rem; color: white;padding-left: 10px"></i>
+        <span style="color: white"><a href="{% url 'index' %}"><i class="bi bi-house-fill" style="font-size: 1.5rem; color: white;padding-left: 20px;padding-right: 5px"></i>首页</a></span>
+    </header>
+    {% block info %}
+    {% endblock %}
+</div>
+</body>
+
+<script>
+    {% block script %}
+    {% endblock %}
+    function chevron_toggle(){
+        $("#collapseParent").toggleClass("glyphicon-chevron-up");
+        $("#collapseParent").toggleClass("glyphicon-chevron-down");
+    }
+    function chevron_toggle1(){
+        $("#collapseParent1").toggleClass("glyphicon-chevron-up");
+        $("#collapseParent1").toggleClass("glyphicon-chevron-down");
+    }
+    function chevron_toggle2(){
+        $("#collapseParent2").toggleClass("glyphicon-chevron-up");
+        $("#collapseParent2").toggleClass("glyphicon-chevron-down");
+    }
+$(function () {
+    $("#collapseParent").click(function () {
+        if($('#docCollapse').is(':hidden')){
+            $("#docCollapse").show()
+        }else {
+            $("#docCollapse").hide()
+        }
+    })
+})
+    $(function () {
+    $("#collapseParent1").click(function () {
+        if($('#docCollapse1').is(':hidden')){
+            $("#docCollapse1").show()
+        }else {
+            $("#docCollapse1").hide()
+        }
+    })
+})
+    $(function () {
+    $("#collapseParent2").click(function () {
+        if($('#docCollapse2').is(':hidden')){
+            $("#docCollapse2").show()
+        }else {
+            $("#docCollapse2").hide()
+        }
+    })
+})
+</script>
+</html>

@@ -1,0 +1,142 @@
+{% extends "base1.html" %}
+
+
+
+{% block info %}
+    <div class="span8">
+        <div class="input-group" style="padding-top: 15px">
+            <input type="text" class="form-control" id="cid" style="height: 25px;width: 200px;border-bottom-left-radius: 5px;border-top-left-radius: 5px;float: left;margin-right: 5px" placeholder="请输入公司id号">
+            <input type="text" class="form-control" id="year" style="height: 25px;width: 100px;border-bottom-left-radius: 5px;border-top-left-radius: 5px;float: left;margin-right: 5px" placeholder="请输入开始年限">
+            <input type="text" class="form-control" id="start" style="height: 25px;width: 100px;border-bottom-left-radius: 5px;border-top-left-radius: 5px;float: left;margin-right: 5px" placeholder="请输入开始月份">
+            <input type="text" class="form-control" id="end" style="height: 25px;width: 100px;border-bottom-left-radius: 5px;border-top-left-radius: 5px;float: left;margin-right: 5px" placeholder="请输入结束月份">
+
+            {% csrf_token %}
+            <button class="el-btn btn-danger" type="button" id="btn" style="height: 35px;border-radius: 5px;">开始搜索</button>
+{#            <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="height: 35px">批量搜索</button>#}
+            <button class="el-btn btn-info" type="submit" id="load" onclick ="DownloadBtn()" value="Download" style="height: 35px;border-radius: 5px;">下载文件</button>
+        </div><!-- /input-group -->
+    </div>
+
+    <div class="span12">
+        <table class="table table-striped" style="background-color: white;height: 100%">
+            <thead>
+            <tr>
+                {#        标题#}
+            </tr>
+            </thead>
+            <tbody>
+            {#          占位#}
+            </tbody>
+        </table>
+
+    </div>
+
+
+{% endblock %}
+
+{% block script %}
+    function DownloadBtn(){
+         var cid = $('#cid').val()
+         var year = $("#year").val();
+         var start = $("#start").val();
+         var end = $("#end").val();
+         var form_data = new FormData();
+         form_data.append('cid', cid);
+         form_data.append('year',year);
+         form_data.append('start',start);
+         form_data.append('end',end);
+
+            console.log(form_data)
+            $.ajax({
+                     url:'/app/api/ajax_download/',
+                     type:'POST',
+                     data: form_data,
+                     processData: false,
+                     contentType: false,
+                    beforeSend: function () {
+                                // 禁用按钮防止重复提交
+                                $("h4").text("正在下载...")
+                                $("#load").attr('disabled','disabled');
+                        },
+                     success: function(data) {
+                         console.log('OK')
+                        console.log(data)
+                         open("/app/api/ajax_download?file_name="+ data)
+                     },
+                    complete: function () {
+                                $("#load").removeAttr("disabled");
+                                $("h4").text("Success!")
+                                alert("下载成功...")
+                        },
+                     error: function(data) {
+                        console.log(data)
+                        alert("error")
+                        }
+            });
+     }
+
+    $(document).ready(function(){
+        $("#btn").click(function () {
+            $("thead").empty();
+            $("tbody").empty();
+            var cid = $("#cid").val();
+            var year = $("#year").val();
+            var start = $("#start").val();
+            var end = $("#end").val();
+            console.log(cid);
+            console.log(year);
+            console.log(start);
+            console.log(end);
+            if(cid!=""&&cid!=null){
+                $.ajax({type: 'POST',
+                        url:"/app/api/c_totals/",
+                        data:{"cid":cid,"year":year,"start":start,"end":end},
+                        beforeSend: function () {
+                                // 禁用按钮防止重复提交
+                                $("h4").text("正在查询...")
+                                $("#btn").attr('disabled','disabled');
+                        },
+                        success: function (data) {
+                            console.log(data);
+                            content = [];
+                            head="<tr>\n" +
+                                 "<th>编号</th>\n" +
+                                "<th>cid</th>\n" +
+                                "<th>平台点击量</th>\n" +
+                                "</tr>";
+
+                            for(var i=0;i<data.length;i++){
+                                if(data[i].status==200){
+                                    html ="<tr>"+"<td>"+(i+1)+"</td>"+"<td class='cid'>"+data[i].keyword+"</td>"+"<td class='total'>"+data[i].total+"</td>"+"</tr>";
+                                    content.push(html)
+                                }else {
+                                    alert(data[0].message)
+                                }
+                            }
+                            if(content.length>0){
+                                console.log(content)
+                                $("thead").html(head);
+                                $("tbody").html(content.join("\n"));
+                                console.log(content.join("\n"))
+
+                            } else {
+                                console.log(content.length);
+                                alert("没有查询到数据")
+                            }
+                        },
+                        complete: function () {
+                                $("#button").removeAttr("disabled");
+                                $("h4").text("Success!")
+                                alert("查询成功！")
+                        }
+                })
+            }else {
+                alert("输入为空！")
+            }
+        });
+
+    });
+
+
+
+{% endblock %}
