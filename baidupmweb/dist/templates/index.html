@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>百度排名批量采集</title>
+    <style>
+        body{
+            background-attachment: fixed;
+            background-image: url('../static/c.jpg')
+
+        }
+        /*th{*/
+            /*text-align: center;*/
+            /*background-color: #ddd;*/
+        /*}*/
+        th,tr{
+            text-align: center;
+        }
+        /*tr:nth-child(odd){*/
+            /*background-color: #f9f9f9;*/
+        /*}*/
+        /*tr:nth-child(even){*/
+            /*background-color: #ddd;*/
+        /*}*/
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+    <h3 style="color: lightblue">百度排名批量采集(请按如下格式输入:)</h3>
+    <textarea class="form-control" rows="3" name=textarea  value="" style="overflow:scroll; overflow-x:hidden; height:200px;">
+Lactoyl-CoA
+阿哌沙班杂质
+白叶藤碱
+利伐沙班杂质
+新白叶藤碱
+        </textarea>
+    <div>
+        <button type="button" class="btn btn-danger btn-lg btn-block" id="btn" style="float: right">确认采集</button>
+    </div>
+    <h5 class="page-header"></h5>
+    <!--分割线-->
+    <div class="result">
+        <h4></h4>
+        <table class="table table-striped" style="background-color: white;height: 100%">
+          <thead>
+            <!--<tr>-->
+              <!--<th>序号</th>-->
+              <!--<th>关键词</th>-->
+              <!--<th>排名</th>-->
+              <!--<th>标题</th>-->
+              <!--<th>链接</th>-->
+            <!--</tr>-->
+          </thead>
+          <tbody>
+          <!--{% for result in results %}-->
+            <!--<tr>-->
+              <!--<td>{{loop.index}}</td>-->
+              <!--<td>{{result.keyword}}</td>-->
+              <!--<td>{{result.score}}</td>-->
+              <!--<td>{{result.title}}</td>-->
+              <!--<td>{{result.url}}</td>-->
+            <!--</tr>-->
+          <!--{% endfor %}-->
+          </tbody>
+
+        </table>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(
+        $("#btn").click(function () {
+            var info = $('.form-control').val();
+            $("h4").empty();
+            $("thead").empty();
+            $("tbody").empty();
+            console.log(info);
+            if (info != "" && info != null) {
+             $.post("./",{data:info},function(result){
+                        console.log(result.data);
+                        content = [];
+                 if(typeof result.data=="object"){
+                        head="<tr>\n" +
+                 "              <th>序号</th>\n" +
+                 "              <th>关键词</th>\n" +
+                 "              <th>排名</th>\n" +
+                 "              <th>标题</th>\n" +
+                 "              <th>链接</th>\n" +
+                 "            </tr>";
+                        for(var i=0;i<(result.data).length;i++){
+                            html = "<tr>"+"<td>"+(i+1)+"</td>"+"<td>"+result.data[i].keyword+"</td>"+"<td>"+result.data[i].score+"</td>"+"<td>"+result.data[i].title+"</td>"+"<td>"+result.data[i].url+"</td>"+"</tr>";
+                            content.push(html)
+                        }
+                        console.log(content.join("\n"));
+                        if(content.length>0){  //返回的数据列表不为空，就清空数据，在js加载新的数据
+                            $("h4").html("采集结果："+content.length);
+                            $("thead").html(head);
+                            $("tbody").html(content.join("\n"))
+
+                        }
+                        else{  //返回的数据列表为空时
+                            alert("没有查询到数据排名")
+                        }
+                 }else if(typeof result.data=="string"){  //如果返回的数据类型是字符串，就确认切换IP地址，成功就跳出弹窗，并输出ip
+                    var f =confirm("请更换IP地址后重新采集。。。");
+                     if(f==true){ //确认更换ip
+                            $.get("http://127.0.0.1:6001/changeip/",function(result){
+                                if(result.code=="success"){
+                                    alert("更换IP成功！"+result.IP)
+                                }else {
+                                    alert("更换IP失败！请确认账号、密码！")
+                                }
+
+                        })
+                     }
+                 }
+             });
+            } else {
+                alert("请输入内容。。。")
+            }
+        })
+    )
+</script>
+</body>
+</html>
