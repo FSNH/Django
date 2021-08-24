@@ -1,0 +1,1673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34a36093-77b0-4f26-a787-f362618f41d9" name="Default" comment="处理了cas带空格问题">
+      <change afterPath="$PROJECT_DIR$/../boatspider/boat/check_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boatspider/boat/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boatspider/router_data_redis/api_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boatspider/router_data_redis/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boatspider/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boatspider/templates/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boatspider/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cid_click_search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product_resource/latest_data/.idea/latest_data.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/biaoyu/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/biomart_chanpin/linkinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/excel/read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/pricrtosqlserver/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/qqhongzha/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/spider_test/spider_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/sql/tsql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/Granlen/Granlen/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/aladdin_e/.idea/aladdin_e.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/aladdin_e/aladdin_e/spiders/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/aladdin_e/aladdin_e/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/aladdin_e/aladdin_e/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/alfa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/bidepharm/.idea/bidepharm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/bidepharm/bidepharm/spiders/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/bidepharm/bidepharm/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/bidepharm/bidepharm/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/biobiopha/.idea/biobiopha.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/biobiopha/biobiopha/spiders/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/biobiopha/biobiopha/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/biobiopha/biobiopha/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/carbosynth/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/chemenu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/chemenu/chemenu/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/chemfaces/chemfaces/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/spiders/c729.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/frontiersci/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/frontiersci/frontiersci/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/macklin/.idea/macklin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/macklin/macklin/spiders/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/macklin/macklin/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/macklin/macklin/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/matrixscientific/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/matrixscientific/matrixscientific/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/matrixscientific/matrixscientific/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/merck/.idea/merck.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/merck/merck/spiders/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/merck/merck/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/merck/merck/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/nj_reagent/.idea/nj_reagent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/nj_reagent/nj_reagent/spiders/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/nj_reagent/nj_reagent/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/nj_reagent/nj_reagent/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/pharmablock/pharmablock/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/rhawn/.idea/rhawn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/rhawn/rhawn/spiders/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/rhawn/rhawn/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/rhawn/rhawn/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/sunwaypharm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/spiders/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/spider_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/downloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/filter_company.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/mobles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/sigma.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/tast.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/多线程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/.idea/boatspider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/.idea/boatspider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/.idea/dataSources/4007be96-b543-4845-a535-b47ea8091136.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/boat/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/migrations/0002_auto_20210707_1608.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/migrations/0003_auto_20210707_1611.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/migrations/0004_auto_20210709_1407.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/migrations/0005_auto_20210709_1409.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/boat/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/boat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/boat/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boatspider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/boatspider/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boatspider/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/boatspider/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/css/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/css/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/css/changelists.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/css/changelists.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/css/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/css/responsive_rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/css/responsive_rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/css/rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/css/vendor/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/css/vendor/select2/select2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/css/vendor/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/css/vendor/select2/select2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/css/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/css/widgets.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/SelectBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/SelectFilter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/SelectFilter2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/autocomplete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/cancel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/cancel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/change_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/change_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/inlines.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/inlines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/jquery.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/jquery.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/popup_response.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/popup_response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/prepopulate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/prepopulate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/prepopulate_init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/prepopulate_init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/urlify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/urlify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/css/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/css/base.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/css/base.less" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/css/base.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/aside.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/aside.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/autocomplete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/avatar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/avatar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/backtop.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/backtop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/badge.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/badge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/breadcrumb-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/breadcrumb-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/breadcrumb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/button-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/button-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/carousel-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/carousel-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/cascader-panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/cascader-panel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/cascader.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/cascader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/checkbox-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/checkbox-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/checkbox-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/checkbox-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/checkbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/col.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/col.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/collapse-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/collapse-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/color-picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/color-picker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/date-picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/date-picker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/dialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/divider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/divider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/drawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/drawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/dropdown-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/dropdown-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/dropdown-menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/dropdown-menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/element-ui.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/element-ui.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/form-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/form-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/icon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/infinite-scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/infinite-scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/input-number.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/input-number.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/link.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/locale/lang/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/locale/lang/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/locale/lang/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/locale/lang/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/locale/lang/ru-RU.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/locale/lang/ru-RU.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/locale/lang/ua.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/locale/lang/ua.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/locale/lang/ug-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/locale/lang/ug-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/menu-item-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/menu-item-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/menu-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/menu-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/message-box.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/message-box.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/notification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/option-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/option-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/option.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/option.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/page-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/page-header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/pagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/popconfirm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/popconfirm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/popover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/progress.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/progress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/radio-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/radio-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/radio-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/radio-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/radio.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/radio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/rate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/row.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/row.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/scrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/scrollbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/spinner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/step.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/step.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/submenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/submenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/switch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/switch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/tab-pane.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/tab-pane.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/table-column.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/table-column.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/tag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/cascader-panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/cascader-panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/cascader.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/cascader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/col.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/col.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/collapse.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/collapse.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/color-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/color-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/date-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/date-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/drawer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/drawer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/image.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/image.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/input-number.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/input-number.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/message-box.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/message-box.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/message.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/message.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/popover.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/popover.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/radio.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/radio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/step.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/step.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/table-column.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/table-column.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/time-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/time-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/time-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/time-select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/transfer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/transfer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/upload.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/theme-chalk/upload.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/time-picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/time-picker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/time-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/time-select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/timeline-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/timeline-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/timeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/transfer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/transfer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/umd/locale/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/umd/locale/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/umd/locale/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/umd/locale/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/umd/locale/ru-RU.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/umd/locale/ru-RU.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/umd/locale/ua.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/umd/locale/ua.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/umd/locale/ug-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/umd/locale/ug-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/elementui/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/admin.lte.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/admin.lte.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/admin.lte.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/admin.lte.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/aircraft.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/aircraft.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/aircraft.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/aircraft.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/ant.design.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/ant.design.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/ant.design.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/ant.design.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/black.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/black.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/black.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/black.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/dark.green.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/dark.green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/dark.green.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/dark.green.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-black-pro.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-black-pro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-black-pro.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-black-pro.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-black.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-black.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-black.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-black.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-green-pro.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-green-pro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-green-pro.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-green-pro.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-green.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-green.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-purple-pro.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-purple-pro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-purple-pro.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-purple-pro.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-purple.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-purple.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-red-pro.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-red-pro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-red-pro.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-red-pro.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-red.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-red.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/e-red.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/element.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/element.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/element.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/element.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/gray.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/gray.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/gray.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/gray.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/green.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/green.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/highdmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/highdmin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/highdmin.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/highdmin.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/layui.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/layui.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/light.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/light.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/light.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/orange.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/orange.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/purple.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/purple.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/simpleui.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/simpleui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/simpleui.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/simpleui.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/x-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/x-blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/x-blue.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/x-blue.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/x-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/x-green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/x-green.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/x-green.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/x-red.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/x-red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/x-red.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/static/admin/simpleui-x/theme/x-red.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/templates/convert.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/templates/convert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/templates/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/templates/monitor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/templates/monitor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/utils/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/utils/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/chemical_cas.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/chemical_cas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/verify_cas.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/verify_cas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/ChemVipInfo_20210508101405.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/ChemVipInfo_20210508101705.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/ChemVipInfo_20210508101716.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/CompanyInfo_20210527111244.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/CompanyInfo_20210527111439.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/CompanyInfo_20210527112011.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/CompanyInfo_20210527112754.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/CompanyInfo_20210601183438.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/CompanyInfo_20210601183532.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/CompanyInfo_20210602094557.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cas_click_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cas_click_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/verify.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/verify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product_resource/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product_resource/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product_resource/latest_data/load_data_from_mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../product_resource/latest_data/load_data_from_mongo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/biomart_chanpin/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/biomart_chanpin/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../router_data_redis/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/../router_data_redis/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_d/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_d/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_d/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_d/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/Granlen/Granlen/spiders/granlen.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/Granlen/Granlen/spiders/granlen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/Granlen/Granlen/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/Granlen/Granlen/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/MCE/MCE/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/MCE/MCE/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/MCE/MCE/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/MCE/MCE/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/MCE/MCE/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/MCE/MCE/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/MCE/MCE/spiders/mce.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/MCE/MCE/spiders/mce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/MCE/MCE/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/MCE/MCE/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/spiders/alf.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/spiders/alf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/alichem/alichem/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/alichem/alichem/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/alichem/alichem/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/alichem/alichem/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/alichem/alichem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/alichem/alichem/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/alichem/alichem/spiders/alich.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/alichem/alichem/spiders/alich.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/dxt.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/dxt.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/biomart_chanpin/dxt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/spiders/ambee.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/spiders/ambee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/.idea/arkpharm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/.idea/arkpharm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/spiders/feibo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/spiders/feibo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/spiders/astate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/spiders/astate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/spiders/bestfluor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/spiders/bestfluor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/bomeibio/bomeibio/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/bomeibio/bomeibio/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/bomeibio/bomeibio/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/bomeibio/bomeibio/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/bomeibio/bomeibio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/bomeibio/bomeibio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/bomeibio/bomeibio/spiders/bomei.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/bomeibio/bomeibio/spiders/bomei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/bomeibio/bomeibio/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/bomeibio/bomeibio/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/carbosynth/carbosynth/click.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/carbosynth/carbosynth/j_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/carbosynth/carbosynth/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/carbosynth/carbosynth/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/carbosynth/carbosynth/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/carbosynth/carbosynth/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/chemenu/chemenu/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/chemenu/chemenu/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/chemenu/chemenu/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/chemenu/chemenu/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/chemenu/chemenu/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/chemenu/chemenu/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/chemenu/chemenu/spiders/chem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/chemenu/chemenu/spiders/chem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/chemenu/chemenu/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/chemenu/chemenu/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/chemfaces/chemfaces/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/chemfaces/chemfaces/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/chemfaces/chemfaces/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/chemfaces/chemfaces/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/chemfaces/chemfaces/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/chemfaces/chemfaces/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/chemfaces/chemfaces/spiders/chemface.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/chemfaces/chemfaces/spiders/chemface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/chemfaces/chemfaces/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/chemfaces/chemfaces/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/spiders/dcchem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/spiders/dcchem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/dingchem/dingchem/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/dingchem/dingchem/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/dingchem/dingchem/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/dingchem/dingchem/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/dingchem/dingchem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/dingchem/dingchem/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/dingchem/dingchem/spiders/a9ding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/dingchem/dingchem/spiders/a9ding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/dingchem/dingchem/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/dingchem/dingchem/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/spiders/enamin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/spiders/enamin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/spiders/energychem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/spiders/energychem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/spiders/fluor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/spiders/fluor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/frontiersci/frontiersci/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/frontiersci/frontiersci/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/frontiersci/frontiersci/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/frontiersci/frontiersci/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/frontiersci/frontiersci/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/frontiersci/frontiersci/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/frontiersci/frontiersci/spiders/front.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/frontiersci/frontiersci/spiders/front.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/frontiersci/frontiersci/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/frontiersci/frontiersci/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/spiders/infsc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/spiders/infsc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/spiders/jkchem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/spiders/jkchem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/spiders/jwy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/spiders/jwy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/laajoo/laajoo/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/laajoo/laajoo/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/laajoo/laajoo/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/laajoo/laajoo/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/laajoo/laajoo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/laajoo/laajoo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/laajoo/laajoo/spiders/laa.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/laajoo/laajoo/spiders/laa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/laajoo/laajoo/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/laajoo/laajoo/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/leyan/leyan/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/leyan/leyan/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/leyan/leyan/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/leyan/leyan/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/leyan/leyan/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/leyan/leyan/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/leyan/leyan/spiders/leya.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/leyan/leyan/spiders/leya.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/leyan/leyan/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/leyan/leyan/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/matrixscientific/matrixscientific/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/matrixscientific/matrixscientific/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/matrixscientific/matrixscientific/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/matrixscientific/matrixscientific/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/matrixscientific/matrixscientific/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/matrixscientific/matrixscientific/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/matrixscientific/matrixscientific/spiders/matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/matrixscientific/matrixscientific/spiders/matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/matrixscientific/matrixscientific/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/matrixscientific/matrixscientific/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/pharmablock/pharmablock/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/pharmablock/pharmablock/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/pharmablock/pharmablock/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/pharmablock/pharmablock/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/pharmablock/pharmablock/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/pharmablock/pharmablock/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/pharmablock/pharmablock/spiders/pharm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/pharmablock/pharmablock/spiders/pharm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/pharmablock/pharmablock/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/pharmablock/pharmablock/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/spiders/sellec.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/spiders/sellec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/shaoyuan/shaoyuan/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/shaoyuan/shaoyuan/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/shaoyuan/shaoyuan/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/shaoyuan/shaoyuan/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/shaoyuan/shaoyuan/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/shaoyuan/shaoyuan/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/shaoyuan/shaoyuan/spiders/sy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/shaoyuan/shaoyuan/spiders/sy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/shaoyuan/shaoyuan/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/shaoyuan/shaoyuan/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/sunwaypharm/sunwaypharm/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/sunwaypharm/sunwaypharm/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/sunwaypharm/sunwaypharm/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/sunwaypharm/sunwaypharm/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/sunwaypharm/sunwaypharm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/sunwaypharm/sunwaypharm/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/sunwaypharm/sunwaypharm/spiders/sunway.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/sunwaypharm/sunwaypharm/spiders/sunway.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/sunwaypharm/sunwaypharm/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/sunwaypharm/sunwaypharm/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/spiders/tci.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/spiders/tci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/trc_canada/trc_canada/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/trc_canada/trc_canada/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/trc_canada/trc_canada/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/trc_canada/trc_canada/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/trc_canada/trc_canada/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/trc_canada/trc_canada/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/trc_canada/trc_canada/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/trc_canada/trc_canada/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/trc_canada/trc_canada/spiders/trc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/trc_canada/trc_canada/spiders/trc.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/company_search$data.coverage" NAME="data Coverage Results" MODIFIED="1614844160199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/company_search$tests.coverage" NAME="tests Coverage Results" MODIFIED="1614737635880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/company_search$data__1_.coverage" NAME="data (1) Coverage Results" MODIFIED="1615867107128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="company_search@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="company_search" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>info</find>
+      <find>Gal</find>
+      <find>select</find>
+      <find>chart</find>
+      <find>惠成电子材料股份有限公司</find>
+      <find>张家界久瑞生物科技有限公司</find>
+      <find>河南豫辰药业股份有限公司</find>
+      <find>上海佰世凯化学科技有限公司</find>
+      <find>湖北正兴源精细化工有限公司</find>
+      <find>更新数据最大</find>
+      <find>user</find>
+      <find>sheet_by_name</find>
+    </findStrings>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/exactsearch.html" />
+        <option value="$PROJECT_DIR$/static/bootstrap/js/bootstrap.js" />
+        <option value="D:/SOFTWARE/Python36/Lib/site-packages/django/views/debug.py" />
+        <option value="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/tables.html" />
+        <option value="$PROJECT_DIR$/templates/index1.html" />
+        <option value="$PROJECT_DIR$/templates/company.html" />
+        <option value="$PROJECT_DIR$/app/check_login.py" />
+        <option value="$PROJECT_DIR$/templates/company_detail.html" />
+        <option value="$PROJECT_DIR$/templates/detail.html" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/app/form.py" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/app/tests.py" />
+        <option value="$PROJECT_DIR$/app/urls.py" />
+        <option value="$PROJECT_DIR$/app/data.py" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/search.html" />
+        <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/templates/base1.html" />
+        <option value="$PROJECT_DIR$/company_search/settings.py" />
+        <option value="$PROJECT_DIR$/app/admin.py" />
+        <option value="$PROJECT_DIR$/utils/data.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="437" />
+    <option name="y" value="134" />
+    <option name="width" value="1036" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectId" id="1rjLSeKSS2kbA3ZCfAwZBmMvalO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="company_search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company_search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company_search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company_search" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company_search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company_search" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.data.extractors.current.export.id" value="JSON-Groovy.json.groovy" />
+    <property name="database.data.extractors.current.id" value="JSON-Groovy.json.groovy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scrapy_gerapy/merck" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\pythongit\company_search" />
+      <recent name="F:\pythongit\company_search\app" />
+      <recent name="G:\pythongit\company_search\utils" />
+      <recent name="G:\BaiduNetdiskDownload\company_search\company_search\utils" />
+      <recent name="G:\BaiduNetdiskDownload\company_search\company_search\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\pythongit\company_search\app" />
+      <recent name="G:\BaiduNetdiskDownload\company_search\company_search\utils" />
+      <recent name="G:\BaiduNetdiskDownload\company_search\company_search\static" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8001" />
+          <option name="urlPath" value="/app/api/getcalcua_data/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="data" />
+                <option name="value" value="['大连联化化学有限公司']" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8001" />
+          <option name="urlPath" value="/app/api/getcalcua_data/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="大连联化化学有限公司" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8001" />
+          <option name="urlPath" value="/app/api/getcalcua_data/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="西格玛奥德里奇(上海)贸易有限公司" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8001" />
+          <option name="urlPath" value="/app/index.html" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="西格玛奥德里奇(上海)贸易有限公司" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8001" />
+          <option name="urlPath" value="/app/api/getcalcua_data/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="data" />
+                <option name="value" value="西格玛奥德里奇(上海)贸易有限公司" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8001" />
+          <option name="urlPath" value="/app/api/getcalcua_data/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="data" />
+                <option name="value" value="&quot;西格玛奥德里奇(上海)贸易有限公司&quot;" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8001" />
+          <option name="urlPath" value="/app/api/getcalcua_data/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="data" />
+                <option name="value" value="[&quot;西格玛奥德里奇(上海)贸易有限公司&quot;]" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8001" />
+          <option name="urlPath" value="/app/api/searchapi/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="上" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8001" />
+          <option name="urlPath" value="/app/api/searchapi/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="上海联硕宝为生物科技有限公司" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8001" />
+          <option name="urlPath" value="/app/index.html" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="上海联硕宝为生物科技有限公司" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8001" />
+          <option name="urlPath" value="/app/api/searchapi/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="西格玛奥德里奇(上海)贸易有限公司" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8001" />
+          <option name="urlPath" value="/app/api/searchapi/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="name = 西格玛奥德里奇(上海)贸易有限公司" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8001" />
+          <option name="urlPath" value="/app/api/getcomany/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.chemical_cas">
+    <configuration name="baidupm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="company_search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/baidupm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chemical_cas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="company_search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/chemical_cas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="company_search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="company_search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="verify_cas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="company_search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/verify_cas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="company_search" type="Python.DjangoServer" factoryName="Django server">
+      <module name="company_search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.chemical_cas" />
+        <item itemvalue="Python.verify_cas" />
+        <item itemvalue="Python.tests" />
+        <item itemvalue="Python.data" />
+        <item itemvalue="Python.baidupm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34a36093-77b0-4f26-a787-f362618f41d9" name="Default" comment="" />
+      <created>1612147454888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612147454888</updated>
+      <workItem from="1619484555276" duration="176000" />
+      <workItem from="1619580088360" duration="5241000" />
+      <workItem from="1620439590801" duration="1952000" />
+      <workItem from="1622017513012" duration="10366000" />
+      <workItem from="1622543630758" duration="295000" />
+      <workItem from="1622598302496" duration="1509000" />
+      <workItem from="1623200143166" duration="12258000" />
+      <workItem from="1623372615999" duration="2876000" />
+      <workItem from="1623717442158" duration="599000" />
+      <workItem from="1623813301425" duration="428000" />
+      <workItem from="1623981941892" duration="16000" />
+      <workItem from="1624505926914" duration="22954000" />
+      <workItem from="1624935004375" duration="2531000" />
+      <workItem from="1625013135915" duration="63000" />
+      <workItem from="1625187579680" duration="5348000" />
+      <workItem from="1625639087659" duration="3826000" />
+      <workItem from="1625647327944" duration="2838000" />
+      <workItem from="1625790826304" duration="2348000" />
+      <workItem from="1626052658085" duration="1187000" />
+      <workItem from="1626167759062" duration="1210000" />
+      <workItem from="1626333208425" duration="1947000" />
+      <workItem from="1626398327077" duration="195000" />
+      <workItem from="1626401790825" duration="2534000" />
+      <workItem from="1626657090034" duration="1397000" />
+      <workItem from="1626774032314" duration="1378000" />
+      <workItem from="1626828319181" duration="37763000" />
+      <workItem from="1626943270991" duration="374000" />
+      <workItem from="1626943764965" duration="1066000" />
+      <workItem from="1627282397929" duration="1398000" />
+      <workItem from="1628587603844" duration="976000" />
+      <workItem from="1628653729183" duration="3345000" />
+      <workItem from="1628729932528" duration="146000" />
+      <workItem from="1628756200957" duration="4166000" />
+      <workItem from="1628844715531" duration="3346000" />
+      <workItem from="1629074864125" duration="7237000" />
+    </task>
+    <task id="LOCAL-00001" summary="处理了cas带空格问题">
+      <created>1624936250471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624936250471</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5655471" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124200426" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18976545" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10127932" sideWeight="0.5056543" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3445287" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="处理了cas带空格问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="处理了cas带空格问题" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/data.py</url>
+          <line>262</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/company_search$data.coverage" NAME="data Coverage Results" MODIFIED="1626658186714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/company_search$verify_cas.coverage" NAME="verify_cas Coverage Results" MODIFIED="1627283007216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/company_search$chemical_cas.coverage" NAME="chemical_cas Coverage Results" MODIFIED="1627283165115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/company_search$tests.coverage" NAME="tests Coverage Results" MODIFIED="1626857858685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/company_search$baidupm.coverage" NAME="baidupm Coverage Results" MODIFIED="1624521340527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/SOFTWARE/Python36/Lib/site-packages/django/views/debug.py" />
+    <entry file="file://$PROJECT_DIR$/static/assets/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SOFTWARE/Python36/Lib/site-packages/tensorboard_plugin_wit/static/wit_tb_bin.html" />
+    <entry file="file://$PROJECT_DIR$/static/vendors/bootstrap-wysihtml5/lib/css/bootstrap-responsive.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="11" column="1114" lean-forward="false" selection-start-line="11" selection-start-column="1114" selection-end-line="11" selection-end-column="1114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1345">
+          <caret line="94" column="1" lean-forward="false" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="455" column="0" lean-forward="true" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html" />
+    <entry file="file://$PROJECT_DIR$/templates/tables.html" />
+    <entry file="file://$PROJECT_DIR$/templates/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ae87994a-85f7-4fca-8620-cbc0df40b6ad/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/76850290/ae87994a-85f7-4fca-8620-cbc0df40b6ad/company_search.django_admin_log" />
+    <entry file="file://D:/software/Anaconda3/envs/django_pt/Lib/site-packages/django/db/models/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="1077" column="11" lean-forward="true" selection-start-line="1077" selection-start-column="11" selection-end-line="1077" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda3/envs/django_pt/Lib/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2041">
+          <caret line="722" column="64" lean-forward="false" selection-start-line="722" selection-start-column="64" selection-end-line="722" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/76850290/ae87994a-85f7-4fca-8620-cbc0df40b6ad/company_search.app_company_info" />
+    <entry file="das://table:/76850290/ae87994a-85f7-4fca-8620-cbc0df40b6ad/company_search.app_ptinfo" />
+    <entry file="file://$PROJECT_DIR$/static/bootstrap/img/glyphicons-halflings-white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bootstrap/img/glyphicons-halflings.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="1684" column="16" lean-forward="false" selection-start-line="1684" selection-start-column="16" selection-end-line="1684" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company_search/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda3/envs/django_pt/Lib/site-packages/django/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/76850290/ae87994a-85f7-4fca-8620-cbc0df40b6ad/company_search.app_user" />
+    <entry file="file://$PROJECT_DIR$/static/jquery-3.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/login.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/login1.jpg" />
+    <entry file="file://$PROJECT_DIR$/templates/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/company_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/76850290/ae87994a-85f7-4fca-8620-cbc0df40b6ad/company_search.app_company" />
+    <entry file="file://$PROJECT_DIR$/app/migrations/0001_initial.py" />
+    <entry file="file://$PROJECT_DIR$/app/migrations/0002_auto_20210304_0907.py" />
+    <entry file="file://$PROJECT_DIR$/app/check_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/76850290/ae87994a-85f7-4fca-8620-cbc0df40b6ad/company_search.app_usermonitor" />
+    <entry file="file://D:/software/Anaconda3/envs/django_pt/Lib/site-packages/xlrd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1560">
+          <caret line="109" column="47" lean-forward="true" selection-start-line="109" selection-start-column="47" selection-end-line="109" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/76850290/ae87994a-85f7-4fca-8620-cbc0df40b6ad/company_search.app_chem960vipcompany" />
+    <entry file="file://$PROJECT_DIR$/templates/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#17#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="102" lean-forward="false" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="66" lean-forward="false" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company_search/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1616">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2650">
+          <caret line="109" column="20" lean-forward="false" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2500">
+          <caret line="104" column="12" lean-forward="false" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
+          <folding>
+            <marker date="1615867107087" expanded="true" signature="4578:4608" ph="select * fro... app_company_info" />
+            <marker date="1615867107087" expanded="true" signature="6537:6631" ph="select compa... app_ptinfo" />
+            <marker date="1615867107087" expanded="true" signature="7216:7297" ph="SELECT sourc... app_company_info" />
+            <marker date="1615867107087" expanded="true" signature="7618:7676" ph="SELECT pt_so... app_ptinfo" />
+            <marker date="1615867107087" expanded="true" signature="8134:8202" ph="UPDATE app_p... " />
+            <marker date="1615867107087" expanded="true" signature="8576:8674" ph="UPDATE app_p... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/settings_local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

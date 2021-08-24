@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ch-ZN">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
+ <title>js实现验证码</title>
+ <style>
+ input {
+  width: 150px;
+  height: 30px;
+  outline: none;
+  font-size: 24px;
+  vertical-align: middle;
+ }
+
+ button {
+  outline: none;
+  vertical-align: middle;
+  cursor: pointer;
+ }
+
+ div {
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ddd;
+  cursor: pointer;
+ }
+ </style>
+</head>
+<body>
+ <input type="text">
+ <div></div>
+ <button>提交</button>
+ <script>
+     //MD5加密
+     var md5 = md5("123")
+ // 获取元素
+ var input = document.querySelector('input');
+ var btn = document.querySelector('button');
+ var div = document.querySelector('div');
+
+ // 搞一个字符库
+ var characters = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890";
+ var str; // str用来储存验证码的文本
+
+ // 生成一个在[l,r]范围内的随机整数的函数
+ function getRandom(l, r) {
+  return parseInt(l + Math.random() * (r - l + 1));
+ }
+
+ // 设置文本不可选中
+ div.addEventListener('selectstart', function (e) {
+  e.preventDefault();
+ })
+
+ // 生成验证码的函数
+ function run() {
+
+  // 先重置str
+  str = '';
+
+  // 删除掉div中的所有子节点
+  while (div.hasChildNodes()) {
+  div.removeChild(div.firstChild);
+  }
+
+  // 生成由四个字符组成的验证码
+  for (var i = 0; i < 4; i++) {
+
+  // 创建一个span对象
+  var span = document.createElement('span');
+
+  // 设置文本（从字库中随机抽取一个字符）
+  span.innerHTML = characters[getRandom(0, characters.length - 1)];
+
+  // 设置一些随机的样式
+  span.style.display = 'inline-block';
+  span.style.fontSize = getRandom(16, 32) + 'px';
+  span.style.color = 'rgb(' + getRandom(0, 200) + ',' + getRandom(0, 200) + ',' + getRandom(0, 200) + ')';
+  span.style.transform = 'translate(' + getRandom(-5, 5) + 'px, ' + getRandom(-5, 5) + 'px) rotate(' + getRandom(-20, 20) + 'deg)';
+  str += span.innerHTML; // str记录字符
+  div.appendChild(span); // 将span添加到div中
+  }
+ }
+
+
+ run(); // 每次打开/刷新页面时先调用一次
+ div.addEventListener('click', run); // 每次点击验证码的时候调用一次
+
+ // 提交按钮点击事件
+ btn.addEventListener('click', function () {
+  if (input.value.toLowerCase() == str.toLowerCase()) {
+  alert('验证成功');
+  } else {
+  alert('验证失败');
+  }
+  run();
+  input.value = '';
+ })
+ </script>
+</body>
+
+</html>

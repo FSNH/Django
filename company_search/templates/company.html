@@ -1,0 +1,62 @@
+{% extends "base1.html" %}
+{% block style %}
+
+{% endblock %}
+
+{% block info %}
+
+    <div class="span8" style="padding-top: 10px">
+        <form action="{% url 'getcompanyname' %}" method="get">
+            <input class="el-button--text" placeholder="公司名称" name="company_name">
+            <button type="submit" class="el-btn btn-danger disabled" style="border-radius: 5px"><i class="bi bi-search" style="font-size: 1rem; color: white;padding: 5px;"></i>搜索
+            </button>
+        </form>
+    </div>
+
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+            <th>ID编号</th>
+            <th>公司名称</th>
+            <th>更新时间</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for s in page %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td class="name">{{ s.company_name }}</td>
+                <td class="num">{{ s.update_time }}</td>
+                <td class="link">
+                    <button type="button" class="btn-xs btn-warning"><a href="{% url 'company_detail'%}?name={{ s.company_name }}">详情</a></button>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <span style="float: left">
+        {% if page.has_previous %}
+            <!--//判断当前页是否有上一页-->
+            <button class="btn btn-info btn-sm">
+            <a href="/app/company.html?page={{ page.previous_page_number }}" aria-label="Previous"><span aria-hidden="true" id="pre">上一页</span></a>
+        </button>
+        {% endif %}
+    </span>
+    <div style="float: left;margin-left: 400px ">第{{ page.number }}页/共{{ page_nums }}页</div>
+    <span style="float: right">
+        {% if page.has_next %}
+            <!-- // 判断当前页是否有下一页-->
+            <button class="btn btn-info btn-sm">
+             <a href="/app/company.html?page={{ page.next_page_number }}" aria-label="Next"><span
+                     aria-hidden="true">下一页</span></a>
+             </button>
+        {% endif %}
+   </span>
+
+
+{% endblock %}
+
+{% block script %}
+
+{% endblock %}

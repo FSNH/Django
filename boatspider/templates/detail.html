@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block style %}
+    <style>
+    span td{padding: 20px;}
+    </style>
+{% endblock %}
+{% block info %}
+    <div class="span6"></div>
+    {% for f in data %}
+        <div class="span12" style="padding-top: 5px;margin-bottom: 5px;border-bottom: solid 1px">
+            <span>项目名称</span>：
+            <td style="margin-bottom: 20px">{{ f.project }}</td>
+            </br>
+            <span>爬虫名称</span>：
+            <td>{{ f.spider_name }}</td>
+            </br>
+            <span>网站名称</span>：
+            <td>{{ f.company_name }}</td>
+            </br>
+            <span>cas查询</span>：
+            <td><button type="button" class='el-btn btn-warning' style='color: white;border: none;border-radius:3px'>{{ f.is_cas }}</button></td>
+            </br>
+            <span>优先级</span>：
+            <td><button type="button" class='el-btn btn-warning' style='color: white;border: none;border-radius:3px'>{{ f.is_priority }}</button></td>
+            </br>
+            <span>配置监控</span>：
+            <td><button type="button" class='el-btn btn-warning' style='color: white;border: none;border-radius:3px'>{{ f.is_monitor }}</button></td>
+            </br>
+            <span>关联保存数据库</span>：
+            <td>{{ f.save_db_name }}</td>
+            </br>
+            <span>关联保存集合</span>：
+            <td>{{ f.save_collection_name }}</td>
+            </br>
+            <span>关联查询字段</span>：
+            <td>{{ f.source_name }}</td>
+            </br>
+            <span>关联数据源数据库</span>：
+            <td>{{ f.load_db_name }}</td>
+            </br>
+            <span>关联数据源集合</span>：
+            <td>{{ f.load_collection_name }}</td>
+            </br>
+            <span>关联导入字段</span>：
+            <td>{{ f.field_name }}</td>
+            </br>
+            <span>创建时间</span>：
+            <td>{{ f.create }}</td>
+            </br>
+        </div>
+    {% endfor %}
+
+{% endblock %}
+
+{% block script %}
+{% endblock %}

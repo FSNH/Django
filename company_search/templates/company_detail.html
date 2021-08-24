@@ -1,0 +1,52 @@
+{% extends "base1.html" %}
+{% block style %}
+
+{% endblock %}
+{% block info %}
+
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+            <th>平台类型</th>
+            <th>公司名称</th>
+            <th>联系人</th>
+            <th>座机</th>
+            <th>手机</th>
+            <th>QQ</th>
+            <th>邮箱</th>
+            <th>地址</th>
+            <th>公司类型</th>
+            <th>主营产品</th>
+            <th>产品数量</th>
+            <th>合作年限</th>
+            <th>更新时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for s in results %}
+            {% for f in s %}
+                <tr>
+                    <td>{{ f.source }}</td>
+                    <td>{{ f.company_name }}</td>
+                    <td>{{ f.link_person }}</td>
+                    <td>{{ f.telephone }}</td>
+                    <td>{{ f.mobile }}</td>
+                    <td>{{ f.qq }}</td>
+                    <td>{{ f.email }}</td>
+                    <td>{{ f.address }}</td>
+                    <td>{{ f.company_type }}</td>
+                    <td>{{ f.scope }}</td>
+                    <td>{{ f.product_num }}</td>
+                    <td>{{ f.cooperate_years }}</td>
+                    <td>{{ f.update_time }}</td>
+                </tr>
+            {% endfor %}
+        {% endfor %}
+        </tbody>
+    </table>
+
+
+{% endblock %}
+
+{% block script %}
+{% endblock %}

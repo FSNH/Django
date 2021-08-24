@@ -1,0 +1,90 @@
+{% extends "base1.html" %}
+
+{% block info %}
+    <div class="span8">
+        <div class="input-group" style="padding-top: 15px">
+            <input type="text" class="form-control" style="height: 25px;width: 400px;border-bottom-left-radius: 5px;border-top-left-radius: 5px;float: left;margin-right: 5px" placeholder="请输入CAS号">{% csrf_token %}
+            <button class="el-btn btn-danger" type="button" id="btn" style="height: 35px;border-radius: 5px;"><i class="bi bi-search" style="font-size: 1rem; color: white;padding: 5px"></i>开始校验</button>
+        </div><!-- /input-group -->
+    </div>
+
+    <div class="span12">
+        <table class="table table-striped" style="background-color: white;height: 100%">
+            <thead>
+            <tr>
+                {#        标题#}
+            </tr>
+            </thead>
+            <tbody>
+            {#          占位#}
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}
+
+{% block script %}
+    flag=false
+    $(document).ready(function(){
+        $("#btn").click(function () {
+            $("thead").empty();
+            $("tbody").empty();
+            var cas = $(".form-control").val();
+            if(!flag){
+                console.log(cas);
+                if(cas!=""&&cas!=null){
+                    $.ajax({
+                        type:'POST',
+                        url:'/app/api/verify/',
+                        data:{"cas":cas},
+                        beforeSend: function () {
+                            // 禁用按钮防止重复提交
+                            $("h4").text("正在校验...")
+                            $("#btn").attr('disabled','disabled');
+                        },
+                        success: function (data) {
+                            console.log(data);
+                            content = [];
+                            head="<tr>\n" +
+                                 "<th>编号</th>\n" +
+                                "<th>CAS</th>\n" +
+                                "<th>中文名称</th>\n" +
+                                "<th>英文名称</th>\n" +
+                                "<th>结果</th>\n" +
+                                "</tr>";
+
+                            for(var i=0;i<data.length;i++){
+                                if(data[i].status==200){
+                                    html ="<tr>"+"<td>"+(i+1)+"</td>"+"<td class='cas'>"+data[i].CAS+"</td>"+"<td class='chinesename'>"+data[i].中文名称+"</td>"+"<td class='englishname'>"+data[i].英文名称+"</td>"+"<td class='result'>"+data[i].result+"</td>"+"</tr>";
+                                    content.push(html)
+                                }else {
+                                    alert(data[0].message)
+                                }
+                            }
+                            if(content.length>0){
+                                console.log(content)
+                                $("thead").html(head);
+                                $("tbody").html(content.join("\n"));
+                                console.log(content.join("\n"))
+                            }
+                        },
+                        complete: function () {
+                                $("#btn").removeAttr("disabled");
+                                $("h4").text("Success!")
+                                alert("校验完成！")
+                        },
+                    })
+
+                }else {
+                    alert("输入为空！")
+                }
+            }
+        });
+
+    });
+
+
+
+
+
+{% endblock %}

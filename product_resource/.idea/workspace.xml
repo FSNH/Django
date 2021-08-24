@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/templates/search.html" line="215" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13e1506d-8c52-4a57-b20f-9c04f8032038" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../boatspider/router_data_redis/api_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boatspider/router_data_redis/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boatspider/templates/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/biomart_chanpin/linkinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/Granlen/Granlen/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/alfa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/spiders/casno.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/spiders/增值服务cas.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/verify_cas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/spiders/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/spider_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/downloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/filter_company.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/mobles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/sigma.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/sigma/tast.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sigma/多线程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/.idea/boatspider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/.idea/boatspider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/.idea/dataSources/4007be96-b543-4845-a535-b47ea8091136.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/.idea/dataSources/4007be96-b543-4845-a535-b47ea8091136.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/boat/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/boat/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/boat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/boat/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/boatspider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/boatspider/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/templates/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boatspider/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boatspider/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_search/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../company_search/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_search/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../company_search/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_search/company_search/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../company_search/company_search/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_search/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../company_search/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_search/utils/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../company_search/utils/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../router_data_redis/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/../router_data_redis/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/Granlen/Granlen/spiders/granlen.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/Granlen/Granlen/spiders/granlen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/Granlen/Granlen/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/Granlen/Granlen/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/spiders/alf.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/spiders/alf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/alfa/alfa/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/dxt.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/dxt.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/biomart_chanpin/dxt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/ambeed/ambeed/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/.idea/arkpharm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/.idea/arkpharm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/spiders/feibo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/spiders/feibo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/arkpharm/arkpharm/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/spiders/astate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/spiders/astate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/astatechinc/astatechinc/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/spiders/bestfluor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/spiders/bestfluor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/bestfluorodrug/bestfluorodrug/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/spiders/dcchem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/spiders/dcchem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/dcchemical/dcchemical/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/spiders/enamin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/spiders/enamin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/enaminestore/enaminestore/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/spiders/energychem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/spiders/energychem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/energychemical/energychemical/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/spiders/fluor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/spiders/fluor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/fluorochem/fluorochem/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/spiders/infsc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/spiders/infsc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/infsci/infsci/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/spiders/jkchem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/spiders/jkchem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jkchemical/jkchemical/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/spiders/jwy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/spiders/jwy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/jwypharmlab/jwypharmlab/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/spiders/sellec.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/spiders/sellec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/selleck/selleck/spiders/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/spiders/tci.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_gerapy/tcichemicals/tcichemicals/spiders/tci.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/product_resource$mce_api.coverage" NAME="mce_api Coverage Results" MODIFIED="1615790737777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils/Spider" />
+    <SUITE FILE_PATH="coverage/product_resource$scheduler__1_.coverage" NAME="scheduler (1) Coverage Results" MODIFIED="1615258195178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/product_resource$start.coverage" NAME="start Coverage Results" MODIFIED="1617269959551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/product_resource$tests.coverage" NAME="tests Coverage Results" MODIFIED="1617347885170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/product_resource$load_data_from_mongo.coverage" NAME="load_data_from_mongo Coverage Results" MODIFIED="1617356216432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/product_resource$sub1.coverage" NAME="sub1 Coverage Results" MODIFIED="1617329446799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/product_resource$scheduler.coverage" NAME="scheduler Coverage Results" MODIFIED="1615258226533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/product_resource$sub.coverage" NAME="sub Coverage Results" MODIFIED="1617335179810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/product_resource$redis_pool.coverage" NAME="redis_pool Coverage Results" MODIFIED="1615946255545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/product_resource$0001_initial.coverage" NAME="0001_initial Coverage Results" MODIFIED="1615797276856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/migrations" />
+    <SUITE FILE_PATH="coverage/product_resource$mdb_to_upload_mdb.coverage" NAME="mdb_to_upload_mdb Coverage Results" MODIFIED="1617355099906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/product_resource$update_pickup_data.coverage" NAME="update_pickup_data Coverage Results" MODIFIED="1616038770608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils/Spider" />
+    <SUITE FILE_PATH="coverage/product_resource$mce.coverage" NAME="mce Coverage Results" MODIFIED="1615972930134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils/Spider" />
+    <SUITE FILE_PATH="coverage/product_resource$updatedata.coverage" NAME="updatedata Coverage Results" MODIFIED="1613616001683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/product_resource$update_pickup_data__1_.coverage" NAME="update_pickup_data (1) Coverage Results" MODIFIED="1617351077529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
+    <SUITE FILE_PATH="coverage/product_resource$test.coverage" NAME="test Coverage Results" MODIFIED="1615968444611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils/Spider" />
+    <SUITE FILE_PATH="coverage/product_resource$data.coverage" NAME="data Coverage Results" MODIFIED="1615874652228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="products" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="products" type="e3449647:DbNodeDescriptor" />
+        <item name="product_resource" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="products" type="e3449647:DbNodeDescriptor" />
+        <item name="product_resource" type="e3449647:DbNodeDescriptor" />
+        <item name="app_property" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="product_resource" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Setup Script" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AZD-1480</find>
+      <find>Hygromycin B</find>
+      <find>Byakangelicin</find>
+      <find>2-Iodo-3-oxo-4-azaandrostane-17-carboxylic acid</find>
+      <find>Oltipraz</find>
+      <find>footer</find>
+      <find>site-footer</find>
+      <find>values</find>
+      <find>pro_price_1</find>
+    </findStrings>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/sign.js" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/product_resource/urls.py" />
+        <option value="D:/software/Anaconda3/envs/django_env/Lib/site-packages/django/views/debug.py" />
+        <option value="$PROJECT_DIR$/templates/h.html" />
+        <option value="$PROJECT_DIR$/templates/f.html" />
+        <option value="$PROJECT_DIR$/app/gaide.py" />
+        <option value="$PROJECT_DIR$/templates/exactsearch.html" />
+        <option value="$PROJECT_DIR$/templates/exactsearchbase.html" />
+        <option value="$PROJECT_DIR$/templates/myEcharts.html" />
+        <option value="$PROJECT_DIR$/app/data.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/index - Copy.html" />
+        <option value="$PROJECT_DIR$/templates/data_analysis.html" />
+        <option value="$PROJECT_DIR$/app/form.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/baseinfo.html" />
+        <option value="$PROJECT_DIR$/templates/detail.html" />
+        <option value="$PROJECT_DIR$/utils/local.py" />
+        <option value="$PROJECT_DIR$/../company_search/company_search/settings.py" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/utils/select_filter.py" />
+        <option value="$PROJECT_DIR$/utils/Spider/mce_api.py" />
+        <option value="$PROJECT_DIR$/product_resource/settings.py" />
+        <option value="$PROJECT_DIR$/app/admin.py" />
+        <option value="$PROJECT_DIR$/app/apps.py" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/app/urls.py" />
+        <option value="$PROJECT_DIR$/utils/Spider/test.py" />
+        <option value="$PROJECT_DIR$/utils/Spider/mce.py" />
+        <option value="$PROJECT_DIR$/utils/data.py" />
+        <option value="$PROJECT_DIR$/utils/Spider/update_data.py" />
+        <option value="$PROJECT_DIR$/utils/redis_pool.py" />
+        <option value="$PROJECT_DIR$/utils/Spider/update_pickup_data.py" />
+        <option value="$PROJECT_DIR$/utils/db.py" />
+        <option value="$PROJECT_DIR$/utils/__init__.py" />
+        <option value="$PROJECT_DIR$/utils/settings_local.py" />
+        <option value="$PROJECT_DIR$/templates/baseCopy.html" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/templates/search.html" />
+        <option value="$PROJECT_DIR$/templates/analysis.html" />
+        <option value="$PROJECT_DIR$/utils/start.py" />
+        <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/app/sub1.py" />
+        <option value="$PROJECT_DIR$/app/sub.py" />
+        <option value="$PROJECT_DIR$/app/tests.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/Spider/update_pickup_data.py" />
+        <option value="$PROJECT_DIR$/utils/load_data_from_mongo.py" />
+        <option value="$PROJECT_DIR$/utils/mdb_to_upload_mdb.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="290" />
+    <option name="y" value="82" />
+    <option name="width" value="1324" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectId" id="1qmLuBRBkSbQDZ1NnQusuTWlc50" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="product_resource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product_resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product_resource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product_resource" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product_resource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product_resource" type="462c0819:PsiDirectoryNode" />
+              <item name="product_resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product_resource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product_resource" type="462c0819:PsiDirectoryNode" />
+              <item name="Spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product_resource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product_resource" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product_resource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product_resource" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../company_search" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/static/css/__init__.py" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\pythongit\product_resource\latest_data" />
+      <recent name="F:\pythongit\product_resource\app" />
+      <recent name="G:\pythongit\product_resource\utils\Spider" />
+      <recent name="D:\Scrapy_Project\product_resource\static\lib" />
+      <recent name="D:\Scrapy_Project\product_resource\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\pythongit\product_resource\utils" />
+      <recent name="G:\pythongit\product_resource" />
+      <recent name="G:\pythongit\product_resource\utils\Spider" />
+      <recent name="D:\Scrapy_Project\product_resource\utils" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/app/api/getproperty/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="5'-Deoxy-5-fluorocytidine" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/app/search/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="5'-Deoxy-5-fluorocytidine" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.load_data_from_mongo">
+    <configuration name="bd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="product_resource" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="load_data_from_mongo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="product_resource" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/latest_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/latest_data/load_data_from_mongo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mce_spider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="product_resource" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spider/mce_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mdb_to_upload_mdb (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="product_resource" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/latest_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/latest_data/mdb_to_upload_mdb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xlsw_spider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="product_resource" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spider/xlsw_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="product_resource" type="Python.DjangoServer" factoryName="Django server">
+      <module name="product_resource" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="product_resource.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.product_resource" />
+      <item itemvalue="Python.load_data_from_mongo" />
+      <item itemvalue="Python.mce_spider" />
+      <item itemvalue="Python.mdb_to_upload_mdb (1)" />
+      <item itemvalue="Python.xlsw_spider" />
+      <item itemvalue="Python.bd" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.load_data_from_mongo" />
+        <item itemvalue="Python.mdb_to_upload_mdb (1)" />
+        <item itemvalue="Python.bd" />
+        <item itemvalue="Python.xlsw_spider" />
+        <item itemvalue="Python.mce_spider" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13e1506d-8c52-4a57-b20f-9c04f8032038" name="Default" comment="" />
+      <created>1609998298923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609998298923</updated>
+      <workItem from="1617680046939" duration="44627000" />
+      <workItem from="1617928391286" duration="24931000" />
+      <workItem from="1618043932753" duration="6408000" />
+      <workItem from="1618187734444" duration="27626000" />
+      <workItem from="1618274255651" duration="21354000" />
+      <workItem from="1618359802083" duration="1414000" />
+      <workItem from="1618449661206" duration="2447000" />
+      <workItem from="1618533341850" duration="7510000" />
+      <workItem from="1618811176677" duration="24349000" />
+      <workItem from="1619310641774" duration="14646000" />
+      <workItem from="1619485853851" duration="8337000" />
+      <workItem from="1619570092002" duration="316000" />
+      <workItem from="1619592207324" duration="657000" />
+      <workItem from="1620267394618" duration="2526000" />
+      <workItem from="1620350403965" duration="2999000" />
+      <workItem from="1620357147613" duration="117000" />
+      <workItem from="1620357685637" duration="13723000" />
+      <workItem from="1620606812140" duration="4605000" />
+      <workItem from="1620615515361" duration="2018000" />
+      <workItem from="1620635163360" duration="19740000" />
+      <workItem from="1620866970939" duration="33458000" />
+      <workItem from="1621562669015" duration="33236000" />
+      <workItem from="1622162826282" duration="3993000" />
+      <workItem from="1622422009165" duration="33720000" />
+      <workItem from="1623035339647" duration="7574000" />
+      <workItem from="1623204451225" duration="1286000" />
+      <workItem from="1623376334321" duration="1639000" />
+      <workItem from="1623717440538" duration="596000" />
+      <workItem from="1624596562727" duration="60000" />
+      <workItem from="1625013200676" duration="5319000" />
+      <workItem from="1625121105075" duration="4430000" />
+      <workItem from="1625448258324" duration="4294000" />
+      <workItem from="1625551780748" duration="4538000" />
+      <workItem from="1625647334796" duration="4387000" />
+      <workItem from="1625790824196" duration="4101000" />
+      <workItem from="1626052712689" duration="2789000" />
+      <workItem from="1626137106003" duration="7580000" />
+      <workItem from="1626310179116" duration="5767000" />
+      <workItem from="1626396163186" duration="8838000" />
+      <workItem from="1626659233980" duration="2453000" />
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11353944" sideWeight="0.49434572" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44637054" sideWeight="0.50586355" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16803278" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3066089" sideWeight="0.49520257" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2654388" sideWeight="0.49413645" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2585288" sideWeight="0.5056543" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39111593" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Spider/mce_spider.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Spider/mce_spider.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Spider/mce_spider.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Spider/mce_spider.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Spider/xlsw_spider.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Spider/xlsw_spider.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Spider/xlsw_spider.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sigama/tast.py</url>
+          <line>5648</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sigama/tast.py</url>
+          <line>5682</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sigama/tast.py</url>
+          <line>5639</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sigama/tast.py</url>
+          <line>5647</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/views.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/product_resource$test.coverage" NAME="test Coverage Results" MODIFIED="1620613642908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/product_resource$hebing.coverage" NAME="hebing Coverage Results" MODIFIED="1619492455481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/product_resource$mdb_to_upload_mdb__1_.coverage" NAME="mdb_to_upload_mdb (1) Coverage Results" MODIFIED="1626659240141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/latest_data" />
+    <SUITE FILE_PATH="coverage/product_resource$mce_spider.coverage" NAME="mce_spider Coverage Results" MODIFIED="1620803341136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
+    <SUITE FILE_PATH="coverage/product_resource$xlsw_spider.coverage" NAME="xlsw_spider Coverage Results" MODIFIED="1620803282327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
+    <SUITE FILE_PATH="coverage/product_resource$download.coverage" NAME="download Coverage Results" MODIFIED="1620802079609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
+    <SUITE FILE_PATH="coverage/product_resource$load_data_from_mongo__1_.coverage" NAME="load_data_from_mongo (1) Coverage Results" MODIFIED="1620779515576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/latest_data" />
+    <SUITE FILE_PATH="coverage/product_resource$tests.coverage" NAME="tests Coverage Results" MODIFIED="1617681391396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/product_resource$bd.coverage" NAME="bd Coverage Results" MODIFIED="1621907572385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/product_resource$mdb_to_upload_mdb.coverage" NAME="mdb_to_upload_mdb Coverage Results" MODIFIED="1619516536849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/product_resource$sub.coverage" NAME="sub Coverage Results" MODIFIED="1617681212660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/product_resource$load_data_from_mongo.coverage" NAME="load_data_from_mongo Coverage Results" MODIFIED="1626678948665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/latest_data" />
+    <SUITE FILE_PATH="coverage/product_resource$sub1.coverage" NAME="sub1 Coverage Results" MODIFIED="1617681078662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/product_resource$tast.coverage" NAME="tast Coverage Results" MODIFIED="1618282370647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sigama" />
+    <SUITE FILE_PATH="coverage/product_resource$update_pickup_data.coverage" NAME="update_pickup_data Coverage Results" MODIFIED="1620801425324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
+    <SUITE FILE_PATH="coverage/product_resource$scheduler.coverage" NAME="scheduler Coverage Results" MODIFIED="1617698396722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/software/Anaconda3/envs/django_env/Lib/site-packages/django/contrib/admin/__init__.py" />
+    <entry file="file://D:/software/Anaconda3/envs/django_env/Lib/site-packages/django/contrib/admin/sites.py" />
+    <entry file="file://$PROJECT_DIR$/../company_search/company_search/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="84" column="28" lean-forward="true" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/data_analysis.html" />
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="3063" column="10" lean-forward="true" selection-start-line="3063" selection-start-column="10" selection-end-line="3063" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/detail.html" />
+    <entry file="file://$PROJECT_DIR$/templates/baseinfo.html" />
+    <entry file="file://$PROJECT_DIR$/templates/base.html" />
+    <entry file="file://$PROJECT_DIR$/utils/select_filter.py" />
+    <entry file="file://D:/Scrapy_Project/crawler/mce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda3/envs/django_env/Lib/site-packages/useragent/__init__.py" />
+    <entry file="file://D:/software/Anaconda3/envs/django_env/Lib/site-packages/retrying.py" />
+    <entry file="file://D:/software/Anaconda3/envs/django_env/Lib/site-packages/parsel/selector.py" />
+    <entry file="file://$PROJECT_DIR$/app/migrations/0002_auto_20210315_1636.py" />
+    <entry file="file://$PROJECT_DIR$/templates/charts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Scrapy_Project/product_resource/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="335" column="37" lean-forward="true" selection-start-line="335" selection-start-column="4" selection-end-line="335" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html" />
+    <entry file="file://D:/Scrapy_Project/product_resource/app/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/test.py" />
+    <entry file="file://$PROJECT_DIR$/utils/pickup_data.py" />
+    <entry file="file://$PROJECT_DIR$/utils/crontab_update_data.py" />
+    <entry file="file://$PROJECT_DIR$/Spider/mce_api.py" />
+    <entry file="file://$PROJECT_DIR$/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda3/envs/django_env/Lib/site-packages/django/db/models/query.py" />
+    <entry file="file://D:/software/Anaconda3/envs/django_env/Lib/site-packages/pymysql/cursors.py" />
+    <entry file="file://D:/software/Anaconda3/envs/django_env/Lib/site-packages/pymongo/collection.py" />
+    <entry file="file://$PROJECT_DIR$/utils/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda3/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2650">
+          <caret line="129" column="34" lean-forward="false" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/settings_local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="90" column="20" lean-forward="false" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/baseCopy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-875">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda3/envs/django_env/Lib/site-packages/pandas/io/excel/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="279" column="26" lean-forward="false" selection-start-line="279" selection-start-column="20" selection-end-line="279" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Anaconda3/envs/django_env/Lib/site-packages/pandas/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3225">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="102" column="31" lean-forward="true" selection-start-line="102" selection-start-column="2" selection-end-line="102" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/analysis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="289" column="9" lean-forward="false" selection-start-line="285" selection-start-column="8" selection-end-line="289" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sub1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/update_pickup_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="73" column="26" lean-forward="false" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+          <folding>
+            <element signature="e#17#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_resource/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/load_data_from_mongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#221#491#0" expanded="false" />
+            <element signature="e#525#2151#0" expanded="false" />
+            <element signature="e#776#1163#1" expanded="false" />
+            <element signature="e#1219#2114#0" expanded="false" />
+            <element signature="e#2185#2544#0" expanded="false" />
+            <element signature="e#2592#2753#0" expanded="false" />
+            <element signature="e#3161#3371#0" expanded="false" />
+            <element signature="e#5311#5891#0" expanded="false" />
+            <element signature="e#5923#6006#0" expanded="false" />
+            <marker date="1617356193676" expanded="true" signature="3243:3269" ph="select * fro... app_property" />
+            <marker date="1617356193676" expanded="true" signature="4083:4174" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4214" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4217" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4219" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4224" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4229" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4234" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4239" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4242" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4244" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4247" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4249" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4252" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4254" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4257" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4291" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4294" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4302" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4305" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4314" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4317" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4331" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4332" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4334" ph="INSERT INTO app_property... " />
+            <marker date="1617356193676" expanded="true" signature="4083:4335" ph="INSERT INTO app_property... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/mdb_to_upload_mdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188">
+          <caret line="47" column="49" lean-forward="true" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#2886#4579#0" expanded="false" />
+            <element signature="e#2886#3357#1" expanded="false" />
+            <element signature="e#4627#5694#0" expanded="false" />
+            <element signature="e#5742#5903#0" expanded="false" />
+            <element signature="e#5935#6084#0" expanded="false" />
+            <element signature="e#6115#6231#0" expanded="false" />
+            <element signature="e#6267#6321#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
