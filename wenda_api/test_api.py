@@ -4,14 +4,20 @@ app = Flask(__name__)
 # Set the secret key to some random bytes. Keep this really secret!
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 @app.route('/')
 def index():
     if 'username' in session:
         return 'Logged in as %s' % escape(session['username'])
     return 'You are not logged in'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
@@ -24,13 +30,21 @@ def login():
         </form>
     '''
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 @app.route('/logout')
 def logout():
     # remove the username from the session if it's there
     session.pop('username', None)
     return redirect(url_for('index'))
 
+<<<<<<< HEAD
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+=======
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
+>>>>>>> master

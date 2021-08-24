@@ -1,0 +1,216 @@
+{% extends "baseCopy.html" %}
+{% block style %}
+    .col-md-10{
+        position: relative;
+        min-height: 1px;
+        padding-right: 0px;
+        padding-left: 40px;
+        overflow-y: scroll;
+        height:1130px;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+     .col-md-10::-webkit-scrollbar {
+        display: none; /* Chrome Safari */
+    }
+
+{% endblock %}
+{% block content %}
+
+		<div class="col-md-12 column" style="height: 40px;background-color: #f5f5f5;margin: 10px 0px 10px 20px;">
+            <!--导航-->
+            <div class="menu">
+                <ul class="breadcrumb">
+                <li class="active">
+                     <a href="{% url 'index' %}">首页</a>
+                </li>
+                <li>
+                     <a href="{% url 'search'%}">检索</a>
+                </li>
+                <li class="disabled">
+                     <a href="{% url 'analysis' %}">信息</a>
+                </li>
+            </ul>
+            </div>
+		</div>
+	</div>
+    <div style="padding: 20px 10px 20px 400px;">
+        <div class="col-lg-6">
+
+            <div class="input-group">
+                <input type="text" class="form-control"  placeholder="CAS号 名称 别名">
+                <span class="input-group-btn">
+                    <button class="btn btn-theme04" type="button" id="btn">开始搜索</button>
+                    <button class="btn btn-theme01" data-toggle="modal" data-target="#myModal">批量搜索</button>
+                </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+    </div>
+    <h5 class="page-header"></h5><br>
+    <div class="result">
+     <h3></h3>
+        <table class="table table-striped" style="background-color: white;height: 100%">
+          <thead>
+            <!--<tr>-->
+              <!--<th>序号</th>-->
+              <!--<th>关键词</th>-->
+              <!--<th>排名</th>-->
+              <!--<th>标题</th>-->
+              <!--<th>链接</th>-->
+            <!--</tr>-->
+          </thead>
+          <tbody>
+          <!--{% for result in results %}-->
+            <!--<tr>-->
+              <!--<td>{{loop.index}}</td>-->
+              <!--<td>{{result.keyword}}</td>-->
+              <!--<td>{{result.score}}</td>-->
+              <!--<td>{{result.title}}</td>-->
+              <!--<td>{{result.url}}</td>-->
+            <!--</tr>-->
+          <!--{% endfor %}-->
+          </tbody>
+        </table>
+     </div>
+        <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display:none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        批量搜索，每行一个CAS号
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <textarea class="form-control_1" id="deblock_udid" name="deblock_udid" rows="16" style="min-width: 90%;width: 515px; height: 320px; resize: vertical"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        关闭
+                    </button>
+                    <button type="button" class="btn btn-danger" id="m_search">
+                        搜索
+                    </button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+{% endblock %}
+{% block script %}
+
+  $(document).ready(function(){
+      $("#btn").click(function () {
+          $("thead").empty();
+          $("tbody").empty();
+          $("h3").empty();
+          info = $(".form-control").val();
+          console.log(info);
+          if(info!=""&&info!=null){
+                  $.post("/product/api/getproperty/",{"data":info},function (data) {
+              console.log(data);
+              content = [];
+              head="<tr>\n" +
+                     "              <th>编号</th>\n" +
+                     "              <th>名称</th>\n" +
+                     "              <th>cas号</th>\n" +
+                     "              <th>规格</th>\n" +
+                     "              <th>价格</th>\n" +
+                     "              <th>纯度</th>\n" +
+                     "              <th>状态</th>\n" +
+                     "              <th>来源</th>\n" +
+                    "               <th>更新时间</th>\n" +
+                       "              <th>操作</th>\n" +
+                     "            </tr>";
+
+              for(var i=0;i<data.length;i++){
+                  if(data[i].message=="success"){
+        html = "<tr>"+"<td>"+(i+1)+"</td>"+"<td id='name'>"+data[i].pname+"</td>"+"<td class='cas"+data[i].id+"'>"+data[i].cas+"</td>"+"<td>"+data[i].purity+"</td>"+"<td>"+data[i].price+"</td>"+"<td>"+data[i].specs+"</td>"+"<td>"+data[i].status+"</td>"+"<td class='source"+data[i].id+"'>"+data[i].source+"</td>"+"<td>"+data[i].pickup_date+"</td>"+'<td><button type="button" class="btn-xs btn-info"><a href='+data[i].source_url+' style="color: white;text-decoration: none" class="link'+data[i].id+'">详情</a></button><button type="button" class="btn-xs btn-warning" onclick="update('+data[i].id+')">更新</button></td>'+"</tr>";
+                    console.log(html)
+                    content.push(html)
+                  }else {
+{#                      alert(data[0].message)#}
+                  }
+              }
+              if(content.length>0){
+                  $("thead").html(head);
+                  $("tbody").html(content.join("\n"));
+                  console.log(content.join("\n"))
+              } else {
+                  console.log(content.length);
+{#                  $("h3").text("没有查询到数据")#}
+                  alert("没有查询到数据")
+              }
+            })
+          }else {
+              alert("输入为空！")
+          }
+
+      });
+  });
+
+{#    批量搜索#}
+    $("#m_search").click(function () {
+          $("thead").empty();
+          $("tbody").empty();
+          $("h3").empty();
+          info = $(".form-control_1").val();
+          console.log(info);
+          if(info!=""&&info!=null){
+                  $.post("/product/api/m_search/",{"data":info},function (data) {
+              console.log(data);
+              content = [];
+              head="<tr>\n" +
+                     "              <th>编号</th>\n" +
+                     "              <th>名称</th>\n" +
+                     "              <th>cas号</th>\n" +
+                     "              <th>纯度</th>\n" +
+                     "              <th>价格</th>\n" +
+                     "              <th>规格</th>\n" +
+                     "              <th>状态</th>\n" +
+                     "              <th>来源</th>\n" +
+                    "               <th>更新时间</th>\n" +
+                   "                <th>操作</th>\n" +
+                     "            </tr>";
+
+              for(var i=0;i<data.length;i++){
+                  if(data[i].message=="success"){
+        html = "<tr>"+"<td>"+(i+1)+"</td>"+"<td id='name'>"+data[i].pname+"</td>"+"<td class='cas"+data[i].id+"'>"+data[i].cas+"</td>"+"<td>"+data[i].purity+"</td>"+"<td>"+data[i].price+"</td>"+"<td>"+data[i].specs+"</td>"+"<td>"+data[i].status+"</td>"+"<td class='source"+data[i].id+"'>"+data[i].source+"</td>"+"<td>"+data[i].pickup_date+"</td>"+'<td><button type="button" class="btn-xs btn-info"><a href='+data[i].source_url+' style="color: white;text-decoration: none" class="link'+data[i].id+'">详情</a></button><button type="button" class="btn-xs btn-warning" onclick="update('+data[i].id+')">更新</button></td>'+"</tr>";
+                    console.log(html)
+                    content.push(html)
+                  }else {
+{#                      alert(data[0].message)#}
+                  }
+              }
+              if(content.length>0){
+                  $("thead").html(head);
+                  $("tbody").html(content.join("\n"));
+                  console.log(content.join("\n"))
+              } else {
+                  console.log(content.length);
+{#                  $("h3").text("没有查询到数据")#}
+                  alert("没有查询到数据")
+              }
+            })
+          }else {
+              alert("输入为空！")
+          }
+
+      });
+    function update(o){
+        list=[]
+        item={}
+        cas = $("td.cas"+o).text()
+        console.log(cas)
+        source = $("td.source"+o).text()
+        console.log(source)
+        link = $(".link"+o).attr('href')
+        console.log(link)
+        list.push(cas,source,link)
+        $.post('/product/api/save_url_redis/',{"data":list.join(';')},function(data){
+            alert('success')
+        })
+    }
+
+{% endblock %}
