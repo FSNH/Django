@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block info %}
+
+    <div class="span6">
+    </div>
+    <div class="span6" >
+        <div class="dataTables_filter" id="example_filter" style="padding-top: 10px;float: right">
+            <form action="{% url 'index' %}" method="get">
+               <button type="submit" class="el-btn btn-danger" style="border-radius: 5px;height: 30px"><i class="bi bi-search" style="font-size: 1rem; color: white;padding: 5px;"></i>搜索</button>
+               <input class="el-button--text" placeholder="主机" name="company_name" style="height: 25px">
+            </form>
+        </div>
+    </div>
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+            <th>编号</th>
+            <th>主机</th>
+            <th>端口</th>
+            <th>数据库</th>
+            <th>集合</th>
+            <th>监控数据源</th>
+            <th>监控项目</th>
+            <th>创建时间</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+{% endblock %}
+
+{% block script %}
+    $(document).ready(function(){
+        $.get("/api/monitors/",function (data){
+                content = [];
+                for(var i=0;i<data.length;i++){
+                    if(data[i].status==200){
+                        html = "<tr>"+"<td class='id'>"+(i+1)+"</td>"+"<td class='name'>"+data[i].host+"</td>"+"<td class='port'>"+data[i].port+"</td>"+"<td class='db'>"+data[i].db+"</td>"+"<td class='collection'>"+data[i].collection+"</td>"+"<td class='source_name'>"+data[i].source_name+"</td>"+"<td class='spider_name'>"+data[i].spider_name+"</td>"+"<td class='update'>"+data[i].update+"</td>"+"<td>"+"<button type='button' disabled='disabled' class='el-btn btn-success' style='color: white;border: none;border-radius:3px'>添加监控</button>"+"</td>"+"</tr>"
+                        content.push(html);
+                    }else{
+                        alert("加载失败")
+                    }
+
+                }
+                if(content.length>0){
+                    console.log(content)
+                    $("tbody").html(content.join("\n"));
+                } else {
+                    console.log(content.length);
+
+                }
+
+            })
+    })
+{% endblock %}
+
