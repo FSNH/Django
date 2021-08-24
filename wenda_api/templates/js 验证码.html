@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function yzm(){
+　　var codeChars = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+　　　　　　'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',
+　　　　　　'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
+　　var code="";
+　　for(var i = 0;i < 4;i++)
+　　{
+　　　　var charNum = Math.floor(Math.random() * 52);
+　　　　code += codeChars[charNum];
+　　}
+　　document.getElementById("yzphoto").value=code;
+　　document.getElementById("yzm").value=code;
+}
+</script>
+<div style="height: 98%;">
+<input style="width:50px;color:blue;font-style: italic;border: none;height: 98%;" readonly="readonly" type="text" id="yzphoto" value=""/>
+<input type="hidden" id="yzm" value="">
+</div>
+<div style="padding-top: 9px;"><a href="#" onclick="yzm()">看不清换一张</a></div>
+</body>
+</html>

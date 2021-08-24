@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+      <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>网络爬虫长尾词审核</title>
+    <style>
+        body{
+            background-attachment: fixed;
+            background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607084583085&di=decb52949e34239cf5fcd7aa95178bd0&imgtype=0&src=http%3A%2F%2Fattachments.gfan.com%2Fforum%2F201503%2F19%2F211608ztcq7higicydxhsy.jpg");
+        }
+        th ,td{
+            text-align: center;
+        }
+
+    </style>
+    <script>
+
+    $(document).ready(function(){
+        b = $(".bottom");
+        a = $(".top");
+        a.html(b.html());
+//        {#        翻页加一#}
+        $(".bottom #next").click(function(){
+        var oldValue=parseInt($(this).attr('href').split('=')[1]);//取出现在的值，并使用parseInt转为int类型数据
+            oldValue++;//自加1
+            $(this).attr('href',$(this).attr('href').split('=')[0]+"="+oldValue)//将增加后的值付给原控件
+        });
+
+//{#        翻页减一#}
+        $(".bottom #pre").click(function(){
+            var oldValue=parseInt($(this).attr('href').split('=')[1]);//取出现在的值，并使用parseInt转为int类型数据
+            oldValue--;//自加1
+            $(this).attr('href',$(this).attr('href').split('=')[0]+"="+oldValue)//将增加后的值付给原控件
+            });
+
+//{#        上边翻页#}
+//{#        翻页减一#}
+        $(".top #pre").click(function(){
+            var oldValue1=parseInt($(this).attr('href').split('=')[1]);//取出现在的值，并使用parseInt转为int类型数据
+            oldValue1--;//自加1
+            $(this).attr('href',$(this).attr('href').split('=')[0]+"="+oldValue1)//将增加后的值付给原控件
+            });
+//        {#        翻页加一#}
+        $(".top #next").click(function(){
+        var oldValue1=parseInt($(this).attr('href').split('=')[1]);//取出现在的值，并使用parseInt转为int类型数据
+            oldValue1++;//自加1
+            $(this).attr('href',$(this).attr('href').split('=')[0]+"="+oldValue1)//将增加后的值付给原控件
+        });
+
+    });
+
+//{#全选复选框#}
+    function selectAll() {
+        var isCheck=$("#select").is(':checked');  //获得全选复选框是否选中
+    $("input[type='checkbox']").each(function() {  
+    this.checked = isCheck;        //循环赋值给每个复选框是否选中
+    });
+    }
+    function selectAll1() {
+        var isCheck=$("#select1").is(':checked');  //获得全选复选框是否选中
+    $("input[type='checkbox']").each(function() {  
+    this.checked = isCheck;        //循环赋值给每个复选框是否选中
+    });
+    }
+function pass() {
+    $()
+}
+</script>
+</head>
+<body>
+
+<div class="container">
+
+{#<h1 style="margin-left: 50px">问答长尾词审核</h1>#}
+    <div class="top"></div>
+    <div class="lf"  style="float: left;width: 100%;height:100%;" >
+
+        <table class="table table-striped table-condensed" style="background-color: white;height: 100%">
+          <thead style="overflow:scroll">
+            <tr>
+            <th>序号</th>
+        {#    <th>id</th>#}
+            <th>cas号</th>
+            <th>长尾词</th>
+            <th>审核状态</th>
+            <th>审核结果</th>
+                <th>
+                    <div class="btn-group">
+                    <button class="btn-xs btn-info">全选<input type="checkbox"  value="" id="select" onchange="selectAll()"></button>
+                    </div>
+                </th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for user in users %}
+              <tr  id="{{ user._id }}">
+              <td style="padding: 10px">{{ loop.index }}</td>
+        {#      <td id="uid">{{ user._id }}</td>#}
+              <td>{{ user.cas }}</td>
+              <td>{{ user.longtailkeyword }}</td>
+              <td>
+                  <div class="btn-group">
+                      <!--href="http://192.168.1.178:5000/check_pass_state/?id={{ user._id }}" -->
+                  <button type="button" class="btn-xs btn-info {{ loop.index }}" id="pass" ><a href="http://127.0.0.1:5000/check_pass_state/?id={{ user._id }}">YES</a></button>
+                  <button type="button" class="btn-xs btn-warning" id="no" ><a href="http://127.0.0.1:5000/delete_id/?id={{ user._id }}">NO</a></button>
+                  </div>
+              </td>
+                  {% if user.checkstate==1 %}
+                   <td>已审核</td>
+                  {% else %}
+                  <td>待审核</td>
+                  {% endif %}
+              <td>
+                  <div class="checkbox" style="height: 0px">
+                    <label><input type="checkbox" value="{{ user._id }}" name="subbox" style="margin: -6px 6px 6px -5px"></label>
+                  </div>
+              </td>
+            </tr>
+          {% endfor %}
+          <tr>
+        {#      <td></td>#}
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                  <button type="button"class="btn btn-success " id="ok">确定</button>
+                  <button type="button"class="btn btn-danger " id="dele">删除</button>
+                  <button class="btn btn-info"><input type="checkbox"  value="" id="select1" onchange="selectAll1()">全选</button>
+
+              </td>
+          </tr>
+        </table>
+    </div>
+    <div class="bottom">
+        <ul class="pager">
+        <li class="previous"><a href="http://127.0.0.1:5000/getall_waitpick/?page={{pages}}&per_nums={{ page_nums }}"id="pre">&larr; Older</a></li>
+        <li class="next"><a href="http://127.0.0.1:5000/getall_waitpick/?page={{pages}}&per_nums={{ page_nums }}"id="next">Newer &rarr;</a></li>
+        <li style="color: white">第{{ pages }}页/共{{ count }}页</li>
+        <span style="color: white">审核通过数据：{{ check_count }}</span>
+<!--{#        <span>待采集数据：{{ wait_count }}</span>#}-->
+        </ul>
+    </div>
+</div>
+
+<script>
+
+$(document).ready(
+
+  $("button#ok").click(function(){
+    var ids=[];
+    $("input:checkbox[name='subbox']:checked").each(function(){
+
+        ids.push($(this).val());
+    });
+//{#     var data = $("input:checkbox[name='subbox']:checked").val();返回一条数据#}
+        if(ids.length>0){
+          var b = confirm("确定提交");
+          if(b==true){
+        $.ajax({
+            type: "POST",
+            url: "http://127.0.0.1:5000/check_pass_state/",
+            data: {"data": ids.join(";")},
+            success: function(msg){
+                                 window.location.reload();
+                        }
+                });
+                }
+            }else {
+            alert("没有选中任何数据")
+        }
+    })
+);
+
+$(document).ready(
+  $("button#dele").click(function(){
+    var ids=[];
+    $("input:checkbox[name='subbox']:checked").each(function(){
+
+        ids.push($(this).val());
+    });
+//{#     var data = $("input:checkbox[name='subbox']:checked").val();返回一条数据#}
+    if(ids.length>0){
+       var b = confirm("确认删除");
+            if(b==true) {
+                $.ajax({
+                    type: "POST",
+                    url: "http://127.0.0.1:5000/delete_id/",
+                    data: {"data": ids.join(";")},
+                    success: function (msg) {
+//{#                        alert('Delete success');#}
+                        window.location.reload();
+                    }
+                });
+            }
+        }else {
+        alert("没有选中任何数据")
+    }
+    })
+)
+</script>
+</body>
+</html>
